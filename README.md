@@ -8,7 +8,7 @@ This project explores sound visualization using the p5.js sound library. The ass
 ## HW10A: Visualizing Live Sound
 
 ### Description
-In this part, we visualize live sound by analyzing both amplitude and frequency data from a song by Rufus Du Sol named Music is Better. The visualization includes a dynamic starry background and colorful, moving patterns influenced by the music.
+In this part, I visualize live sound by analyzing both amplitude and frequency data from a song by Rufus Du Sol named Music is Better. The visualization includes a dynamic starry background and colorful, moving patterns influenced by the music.
 
 ### Features
 1. **Dynamic Background:** A starry night scene where star brightness changes based on the song's amplitude.
@@ -19,7 +19,7 @@ In this part, we visualize live sound by analyzing both amplitude and frequency 
    - A slider to control the size of the frequency rings.
 
 ### Song
-The visualization uses a song by Rufus Du Sol named Music is Better (`song.mp3`). The amplitude and frequency data are extracted in real-time using the p5.Amplitude and p5.FFT objects.
+The visualization uses a song Music is Better (`song.mp3`). The amplitude and frequency data are extracted in real-time using the p5.Amplitude and p5.FFT objects.
 
 ### How It Works
 - The amplitude controls the size of the pulsating circle and the brightness of stars.
@@ -39,7 +39,7 @@ This part creates a static representation of an entire song by Rufus Du Sol name
 3. **Interactive Control:** A play/pause button to toggle song playback.
 
 ### Song
-This part uses a song by Rufus Du Sol named Music is Better (`songb.mp3`) of around 3 minutes. The `getPeaks()` function provides amplitude data, scaled to match the canvas width.
+This part uses a song Music is Better (`songb.mp3`) of around 3 minutes. The `getPeaks()` function provides amplitude data, scaled to match the canvas width.
 
 ### How It Works
 - The `getPeaks()` function generates an array of amplitude data.
